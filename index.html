@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html leng=en>
+
+<head>
+  <title>Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1 id="title">freeCodeCamp Survey Form
+    </h1>
+  <p id="description">Thank you for taking the time to help us improve the platform
+
+  </p>
+</header>
+  <form id="survey-form">
+    <label for="name" id="name-label">Name:
+      <input id="name" type="text" placeholder="name" required></input></label>
+    <label for="email" id="email-label">email:
+        <input id="email" type="email" placeholder="email"required></input></label>
+    <label for="number" id="number-label" >age:
+         <input id="number" type="number" min="10" max="100" placeholder="age"></input></label>
+    <h4>how are you to day</h4>
+    <select id="dropdown">
+
+        <option>good </option>
+        <option>firne</option>
+        <option>great</option>
+      </select>
+
+    <section>
+      <h4>Shoos yes | not</h4>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>>
+    </section>
+    <section>
+      <h4>check the true valio</h4>
+
+      <input type="checkbox" value="checkbox">
+      <input type="checkbox" value="checkbox">
+      <input type="checkbox" value="checkbox">
+
+      <textarea > write a comment</textarea>
+
+    </section>
+    <input type="submit" id="submit">
+  </form>
+
+</body>
+
+</html>
